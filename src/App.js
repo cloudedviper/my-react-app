@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <h1>Hello, React!</h1> */}
+        <h1>Hello, React!</h1>
         <Welcome name="Cloud" />
         <Welcome name="Renee" />
         <img src={logo} alt="Logo" />
