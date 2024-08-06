@@ -11,6 +11,7 @@ function App() {
         <h1>Hello, React!</h1>
         <Welcome name="Cloud" />
         <Welcome name="Renee" />
+        <Header />
         <img src={logo} alt="Logo" />
     </div>
   );
