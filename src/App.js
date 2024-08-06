@@ -9,9 +9,8 @@ function App() {
     <div className="App">
         <Header /> {/* Use the Header component */}
         <h1>Hello, React!</h1>
-        <Welcome name="Cloud" />
-        <Welcome name="Renee" />
-        <Header />
+        <Welcome name="Cloud" age="30"/>
+        <Welcome name="Renee" age="20"/>
         <img src={logo} alt="Logo" />
     </div>
   );
