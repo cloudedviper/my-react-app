@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Welcome from './Welcome';
 import Header from './Header'; // Import the Header component
-import logo from './Assets/Images/logo.jpg';
 
 function App() {
   return (
@@ -11,9 +10,10 @@ function App() {
         <h1>Hello, React!</h1>
         <Welcome name="Cloud" age="30"/>
         <Welcome name="Renee" age="20"/>
-        <img src={logo} alt="Logo" />
+        <img src={`${process.env.PUBLIC_URL}/logo.jpg`} alt="logo" />
     </div>
   );
 }
 
 export default App;
+
