@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
 import Welcome from './Welcome';
-import Header from './Header'; // Import the Header component
+import Header from './Header'; 
 
 function App() {
   return (
     <div className="App">
-        <Header /> {/* Use the Header component */}
+        <Header /> 
         <h1>Hello, React!</h1>
         <Welcome name="Cloud" age="30"/>
         <Welcome name="Renee" age="20"/>
-        <img src={`${process.env.PUBLIC_URL}/logo.jpg`} alt="logo" />
+        <img src={`${process.env.PUBLIC_URL}images/logo.jpg`} alt="logo" />
     </div>
   );
 }
