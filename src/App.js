@@ -8,9 +8,9 @@ function App() {
     <div className="App">
         <Header /> 
         <h1>Hello, React!</h1>
-        <Welcome name="Cloud" age="30"/>
+        <Welcome name="Criss" age="40"/>
         <Welcome name="Renee" age="20"/>
-        <img src={`${process.env.PUBLIC_URL}images/logo.jpg`} alt="logo" />
+        <img src={`${process.env.PUBLIC_URL}images/logo.jpg`} alt="Fallout logo" />
     </div>
   );
 }
